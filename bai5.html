@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5</title>
+    <link rel="stylesheet" href="bai5.css">
+    </head>
+    <body>
+        <form action="#" method="post">
+            <div class="one">
+                <img src="icon-login.png" alt="icon login" width="25px">
+                <p>Login</p>
+            </div>
+            <div class="two">
+                <label class="account" for="account">
+                    <input id="account" type="text" placeholder="Tên tài khoản">
+                    <img src="icon-user.png" alt="icon user" width="25px">
+                </label>
+                <label class="password" for="password">
+                    <input id="password" type="password" placeholder="Mật khẩu" text-security = "disc">
+                    <img src="icon-key.png" alt="icon key" width="25px" onclick="seen()">
+                </label>
+            </div>
+            <button class="three" type="submit" onclick="send()">
+                <img src="icon-lock.png" alt="icon lock" width="25px">
+            </button>
+
+        </form>
+        <script>
+            function seen(){
+                var mkInput =document.getElementById("password");
+                if (mkInput.type === "password") {
+                    mkInput.type = "text";
+                    confirm("Bạn muốn hiện mật khẩu");
+
+                } else {
+                    mkInput.type = "password";
+                }
+                
+
+            }
+        </script>
+    </body>
+</html>

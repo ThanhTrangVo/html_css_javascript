@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1{
+    color: #9405eb;
+    margin-bottom: 20px;
+}
+p{
+    color: grey;
+    font-size: 12px;
+    text-align: centers;
+}
+form{
+    margin-top: 30px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkgrey;
+    width: 100%;
+    height: auto;
+
+}
+.one, .two, .three{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+input{
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+}
+select{
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    color: grey;
+    padding-top: 5px;
+}
+textarea{
+    border: none;
+    border-radius: 2px;
+    width: 430px;
+    height: auto;
+    color: grey;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+.button{
+    display: block;
+    margin-bottom: 20px;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    background-color: #0495f4;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px 10px 20px;
+    margin-top: 20px;
+}

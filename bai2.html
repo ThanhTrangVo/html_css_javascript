@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+    <link rel="stylesheet" href="bai2.css">
+    <script src="bai2.js"></script>
+    
+    </head>
+  <body>
+    <div class="text">
+      <h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+      <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+      <p>Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <i>(nếu có)</i></p>
+    </div>
+      <form action="#" method="post">
+            <div class="form">
+                <div class="one">
+                  <input type="text" id="name" placeholder="Họ và tên">
+                  <input type="text" id="card-id" placeholder="Mã thẻ">
+              </div>
+              <div class="two">
+                  <input type="text" id="phone" placeholder="Số điện thoại">
+                  <input type="email" id="email" placeholder="E-mail">
+              </div>
+              <div class="three">
+              <select name="client-type" id="client-type">
+                  <option value="" class="disable" >Chọn loại khách hàng</option>
+                  <option value="new">Mới</option>
+                  <Option value="vip">VIP</Option>
+                  <Option value="vvip">VVIP</Option>
+              </select>
+              <input type="text" id="bill-id" placeholder="Mã hóa đơn">
+              </div>
+              <textarea rows="5" id="cmt">Nhập chi tiết mô tả</textarea>
+              </div>
+            </div>
+          <div class="button">
+            <button id="button" onclick="thongbao()" >GỬI GÓP Ý
+              <img src="icon-mess.png" alt="icon messenger" width="35px">
+            </button>
+          </div>
+      </form>    
+  </body>
+</html>

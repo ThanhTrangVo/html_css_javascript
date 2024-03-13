@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 4</title>
+    <link rel="stylesheet" href="bai4.css">
+   <!-- <link rel="stylesheet" href="bai4.css"--->
+    <script src="bai4.js"></script>
+    
+    </head>
+    <body>
+        <div class="container">
+            <h1>TÍNH CHỈ SỐ BMI</h1>
+            <form>
+                <label for="a" class="a">Nhập cân nặng?
+                    <input type="number" id="a">
+                </label>
+                <label for="b">Nhập chiều cao?
+                    <input type="number" id="b" placeholder="Bạn cao bao nhiêu m?">
+                </label>
+                <label for="select">Chọn loại tuổi?
+                    <select id="select">
+                        <option value="trung niên">Trung niên</option>
+                        <option value="trung niên, già lớn tuổi">Trung niên, Già lớn tuổi</option>
+                        <option value="già, lớn tuổi">Già, lớn tuổi</option>
+                    </select>
+                </label>
+            </form>
+            <div class="item-center">
+                <button onclick="tinhtoan()">TÍNH BMI</button>
+                <h2>KẾT QUẢ</h2>
+                <p id="one"></p>
+                <p id="two"></p>
+                <p id="three"></p>
+        </div>
+    </body>
+</html> 
